@@ -1,0 +1,283 @@
+.background-image{
+    opacity: 0.4;
+}
+.image1{
+    width: 1280px;
+    height: 800px;
+}
+.titles{
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+
+/* Navbar */
+.navbar-nuway{
+    height: 50px;
+}
+
+
+
+
+/* Home Page */
+.logo{
+    position: absolute;
+    bottom:180px;
+    left: 390px;
+    animation: display 2s linear;
+}
+
+@keyframes display {
+    0%{
+        opacity: 0%;
+
+    }
+    50%{
+        opacity: 50%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+    
+}
+
+.main-heading{
+    position: absolute;
+    text-align: center;
+    color: #183A1D;
+    top: 400px;
+    left: 30px;
+    font-size: 80px;
+    font-family: 'Noto Serif Lao', serif;
+    animation: comeup 2s linear;
+}
+
+@keyframes comeup {
+
+    0%{
+        top:500px;
+        opacity: 0%;
+    }
+
+    50%{
+        top:450px;
+        opacity: 50%;
+    }
+
+    100%{
+        top:400px;
+        opacity: 100%;
+    }
+    
+    
+}
+
+
+/* About us */
+
+.about_Us{
+    background-image: url(Images/regionEF-bg.jpg);
+    background-attachment: fixed;
+    height: 1500px;
+
+}
+.whoWeAre{
+    position: absolute;
+    background-color: #F5E9CF;
+    font-family: 'Barlow', sans-serif;
+    width:550px;
+    left: 100px;
+    height:500px;
+    text-align: center;
+    color: black;
+    padding-top: 12px;
+    animation: comeleft 3s linear;
+}
+@keyframes comeleft {
+
+    0%{
+        left:0px;
+    }
+
+    50%{
+        left:50px;
+        }
+    
+    100%{
+        left:100px;
+    }
+}
+
+.ourProgram{
+    position: relative;
+    background-color: #E96479;
+    font-family: 'Barlow', sans-serif;
+    width:550px;
+    margin-left:650px;
+    height:500px;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    animation: comeright 3s linear;
+}
+
+@keyframes comeright {
+
+    0%{
+        margin-left:750px;
+    }
+
+    50%{
+        margin-left:700px;
+        }
+    
+    100%{
+        margin-left:650px;
+    }
+}
+
+
+.desc{
+    width: 400px;
+    margin-left:80px;
+    font-size: 20px;
+}
+
+
+
+
+/* curriculum Page */
+.curriculum{
+    position: relative;
+    background-color: #609EA2;
+    width:900px;
+    margin-left: 200px;
+    height:500px;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+}
+
+.list{
+    text-align: justify;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.rup{
+    width:30px;
+    height:30px;
+}
+
+.books{
+    position: absolute;
+    height: 210px;
+    Bottom: 100px; 
+    left: 630px;
+    animation: dance 2s linear infinite alternate-reverse;
+
+}
+
+@keyframes dance {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(5deg);
+    }
+
+    100%{
+        transform: rotate(10deg);
+    }
+    
+}
+
+
+
+
+
+/* Connect Students Page */
+.connectStudents{
+    background-color: #F5E9CF;
+    position: absolute;
+    height:450px;
+    width: 1150px;
+    padding-top: 12px;
+    margin-left: 50px;
+    
+}
+.t-style{
+    text-align: center;
+}
+
+.descs{
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    width: 500px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.butn{
+    margin-left: 450px;
+}
+
+
+
+/* Contact */
+footer{
+    background-color: #4D455D;
+    /* margin-top: 450px; */
+    color: white;
+
+}
+
+.contact{
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 35px;
+    padding-right: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+.add{
+    position: absolute;
+    left: 80px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.phn{
+    position: absolute;
+    padding-left: 450px;
+    padding-top: 0px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.wts{
+    position: absolute;
+    padding-left:700px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.ema{
+    padding-left: 980px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+   
+}
+
+.copyright{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    padding-right: 100px;
+    font-size: 10px;
+}
